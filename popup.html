@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="popup.js"></script>
+  <meta charset="UTF-8">
+<link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div>Currently Open:<br /><h3><span id="tabNums"></span> tabs <br /> in <span id="winNums"></span> window(s)</h3></div>
+<form>
+  <div>Limit # of Tabs to: <br /> <input type="number" id="maxTabs"><br /><span id="small">("0" for infinite tabs)</span><br /></div>
+  <input type="submit" id="setMax" value="set">
+
+  <div id="error">
+  </div>
+  <div id="success">
+  </div>
+
+</form>
+  </body>
+</html>

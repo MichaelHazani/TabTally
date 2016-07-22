@@ -1,0 +1,38 @@
+body {
+color: #222;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: black!important;
+text-align: center;
+background-image: url("bg.png");
+opacity:0.8;
+font-size:1em;
+}
+
+h3 {
+  font-weight: 300!important;
+}
+
+#small {
+  font-size:0.7em;
+}
+
+#tabNums, #winNums {
+  font-weight: 700!important;
+  color: purple;
+}
+
+div {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#error {
+color: red;
+}
+#success {
+color: green;
+}
+submit {
+  text-align: center;
+}
